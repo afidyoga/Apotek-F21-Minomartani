@@ -4,10 +4,10 @@
 ## - [Source](#source)
 
 # [Intro](#intro)
-Web Apotek Jati Negara adalah sebuah website yang dibuat untuk memenuhi kewajiban tugas besar matakuliah Manajemen Sistem Basis Data (Teknologi Informasi, Universitas Sumatera Utara).  
-Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untuk dengan mudah mencari dan memesan obat-obatan secara praktis dari rumah mereka. Dengan antarmuka yang ramah pengguna dan fitur-fitur inovatif, aplikasi ini bertujuan untuk menyederhanakan proses pembelian obat dan meningkatkan kenyamanan pengguna serta mempermudah pihak apotek untuk mengontrol data data dari apotek.  
+Web Apotek F21-Minomartani adalah sebuah website yang dibuat untuk memenuhi kewajiban tugas akhir prodi D3 Teknik Informatika(Fakuktas Ilmu Komputer, Universitas AMIKOM Yogyakarta).  
+Apotek F21-Minomartani adalah aplikasi apotek online yang memungkinkan pengguna untuk dengan mudah mencari dan memesan obat-obatan secara praktis dari rumah mereka. Dengan antarmuka yang ramah pengguna dan fitur-fitur inovatif, aplikasi ini bertujuan untuk menyederhanakan proses pembelian obat dan meningkatkan kenyamanan pengguna serta mempermudah pihak apotek untuk mengontrol data data dari apotek.  
   
-[NB: Apotek Jati Negara adalah sebuah apotek yang berlokasi di Medan, data dan informasi yang ada telah disamarkan]
+[NB: Apotek F21 Minomartani adalah sebuah apotek yang berlokasi di Sleman, data dan informasi yang ada telah disamarkan]
 
 # Instalasi Dan Konfigurasi
 - ## Tech
@@ -46,7 +46,7 @@ Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untu
            # Koneksi database menggunakan root
              DB_HOST=127.0.0.1
              DB_PORT=3306
-             DB_DATABASE=apotekjatinegara
+             DB_DATABASE=apotek
              DB_USERNAME=root
              DB_PASSWORD=
            # Akhir koneksi database menggunakan root
@@ -54,7 +54,7 @@ Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untu
            # Koneksi database menggunakan customer
             DB_HOST_CUSTOMER=127.0.0.1
             DB_PORT_CUSTOMER=3306
-            DB_DATABASE_CUSTOMER=apotekjatinegara
+            DB_DATABASE_CUSTOMER=apotek
             DB_USERNAME_CUSTOMER=root
             DB_PASSWORD_CUSTOMER=
            # Akhir koneksi database menggunakan customer
@@ -62,7 +62,7 @@ Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untu
            # Koneksi database menggunakan cashier
             DB_HOST_CASHIER=127.0.0.1
             DB_PORT_CASHIER=3306
-            DB_DATABASE_CASHIER=apotekjatinegara
+            DB_DATABASE_CASHIER=apotek
             DB_USERNAME_CASHIER=root
             DB_PASSWORD_CASHIER=
            # Akhir koneksi database menggunakan cashier
@@ -70,7 +70,7 @@ Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untu
            # Koneksi database menggunakan owner
             DB_HOST_OWNER=127.0.0.1
             DB_PORT_OWNER=3306
-            DB_DATABASE_OWNER=apotekjatinegara
+            DB_DATABASE_OWNER=apotek
             DB_USERNAME_OWNER=root
             DB_PASSWORD_OWNER=
            # Akhir koneksi database menggunakan owner
@@ -83,8 +83,8 @@ Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untu
             MAIL_USERNAME=Username
             MAIL_PASSWORD=Password
             MAIL_ENCRYPTION=null
-            MAIL_FROM_ADDRESS="apotekjatinegara@gmail.com"
-            MAIL_FROM_NAME="Apotek Jati Negara"
+            MAIL_FROM_ADDRESS="hello@example.com"
+            MAIL_FROM_NAME="${APP_NAME}"
        [NB: tutorial menggunakan mailtrap (https://www.youtube.com/watch?v=OXqDlufizG8) (09:09 - 13:55)]
          
        ### Pengaturan Google
@@ -111,28 +111,19 @@ Apotek Jati Negara adalah aplikasi apotek online yang memungkinkan pengguna untu
       Buka browser dan kunjungi alamat yang ditampilkan di terminal. Biasanya, ini adalah `http://127.0.0.1:8000`.
 
 # [Kontributor](#kontributor)
-- ### Alwin Liufandy
-  - Instagram: @winz.liu
-  - LinkedIn: Alwin Liufandy
-- ### Devandra Deal Fatahilla
-  - Instagram: @devandradealf
-  - LinkedIn: Devandra Deal
-- ### Jessindy Tanuwijaya
-  - Instagram: @jessindytanu
-  - LinkedIn: Jessindy Tanuwijaya
-- ### Julyant Anggara
-  - Instagram: @julyantanggara
-  - LinkedIn: Julyant Anggara
-- ### Muhammad Raihan Abdillah Lubis
-  - Instagram: @rrreyabd
-  - LinkedIn: Muhammad Raihan Abdillah Lubis
-- ### Yohana Septamia
-  - Instagram: @yohanasept_
-  - LinkedIn: Yohana Septamia
+- ### Mohamad Afid Yoga Pratama Putra
+  - Instagram: @afid_yoga
+  - LinkedIn: Mohamad Afid Yoga Pratama Putra
+- ### Imam Subekti
+  - Instagram: @imamsubekti26
+  - LinkedIn: Imam Subekti
+- ### Muhammad Nabil Amani
+  - Instagram: @m_nabilamani
+  - LinkedIn: Muhammad Nabil Amani
 
 # [Source](#source)
-- ## Apotek Jati Negara
-  https://maps.app.goo.gl/G7Kpsg474Jd3uFDR6 (Maps)
+- ## Apotek F21-Minomartani
+  [https://maps.app.goo.gl/G7Kpsg474Jd3uFDR6](https://g.co/kgs/vaAsneM) (Maps)
 - ## [Laravel 10](#laravel-10)
   https://laravel.com/
 - ## [Tailwind CSS](#tailwind-css)
