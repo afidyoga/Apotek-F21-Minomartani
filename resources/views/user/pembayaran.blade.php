@@ -109,9 +109,9 @@
                 <input type="hidden" name="status" value="Menunggu Konfirmasi">
 
                 <div class="w-[70vw] flex justify-end text-white font-semibold gap-4">
-                    <button type="button" class="bg-red-600 h-fit w-fit px-10 py-1 rounded-lg shadow-md">
+                    <a href="{{ url('booking') }}" type="button" class="bg-red-600 h-fit w-fit px-10 py-1 rounded-lg shadow-md">
                         Kembali
-                    </button>
+                    </a>
                     <button type="submit" class="bg-mainColor h-fit w-fit px-10 py-1 rounded-lg shadow-md">
                         Kirim
                     </button>

@@ -205,9 +205,9 @@ class ProductController extends Controller
         // filter cari
         if ($request->cari) {
                 if($request->golongan || $request->kategori || $request->bentuk || $request->minimum || $request->maksimum || $request->filter) {
-                    $product = $product->where('Products.product_name', 'like' ,"%". $request->cari ."%");
+                    $product = $product->where('products.product_name', 'like' ,"%". $request->cari ."%");
                 }else{
-                    $product = Product::where('Products.product_name', 'like' ,"%". $request->cari ."%");
+                    $product = Product::where('products.product_name', 'like' ,"%". $request->cari ."%");
                 }
         }
         // akhir filter cari

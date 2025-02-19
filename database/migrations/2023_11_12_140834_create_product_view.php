@@ -66,6 +66,7 @@ return new class extends Migration
             a.product_id,
             a.product_name,
             a.product_status,
+            a.product_sell_price,
             c.category,
             d.`group`,
             e.unit,

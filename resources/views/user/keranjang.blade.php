@@ -124,7 +124,7 @@
                 <livewire:product-total-price :user="$cart->user_id" :total="$jumlah" />
 
                 <div class="flex justify-end items-end my-3 me-10">
-                    <a href="/booking" class="p-2 px-7 rounded-lg shadow-lg text-white font-semibold bg-secondaryColor hover:bg-orange-400">Booking</a>
+                    <a href="/booking" class="p-2 px-7 rounded-lg shadow-lg text-white font-semibold bg-secondaryColor hover:bg-orange-400">Check Out</a>
                 </div>
             @else
                 <div class="text-mainColor text-center flex flex-col items-center justify-center px-60 gap-4 h-96">
